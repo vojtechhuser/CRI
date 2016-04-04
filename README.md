@@ -3,7 +3,7 @@
 Clinical Research Informatics
 
 
-## Methods: 
+## Methods
 We created a pipeline of multiple text processing and NLP tools that starts with protocol or informed consent as input. For PDF documents, we first extract the text and remove repeating header and footer text. The current pipeline uses MetaMap as the main NLP tool but we are evaluating several other tools (e.g., NobleCoder, Apache cTAKES). To assess the quality of the procedure terms NLP extraction, we created an evaluation reference standard (for a random subset of protocol documents). Examples of protocol procedures targeted in our pilot are: ‘whole blood count test’, ‘liver biopsy’ or ‘questionnaire administration’. We mark by special flag procedures that are traceable via the NIH CC data warehouse.
 
 ## Preliminary Results and Discussion:
